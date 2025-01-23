@@ -7,7 +7,7 @@ import TopCategory from "./components/TopCategory"
 
 export default function Home() {
   return(
-  <main>
+  <main className="w-full px-4 sm:px-6 lg:px-8 mx-auto">
   
     <Hero />
     <Companylogo />
