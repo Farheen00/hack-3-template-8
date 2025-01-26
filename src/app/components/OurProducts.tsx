@@ -97,7 +97,6 @@
 // export default OurProducts;
 
 "use client"
-import { IoCartOutline } from "react-icons/io5";
 import Image from "next/image";
 import Link from "next/link";
 import { client } from "@/sanity/lib/client";
@@ -136,7 +135,7 @@ const OurProducts = () => {
     <div className="w-full sm:w-auto sm:mx-0 pb-12">
       <section className="text-gray-600 body-font sm:left-0 mx-auto max-w-7xl">
         <div className="container px-5 pt-24 mx-auto">
-          <h1 className="text-3xl md:text-xl lg:text-2xl font-semibold font-[Inter] text-left px-6 pb-14 sm:text-center">
+          <h1 className="text-3xl md:text-xl lg:text-2xl font-semibold font-[Inter] text-center px-6 pb-14 sm:text-center">
             Our Products
           </h1>
           <div className="container px-5 mx-auto">
@@ -177,7 +176,7 @@ const OurProducts = () => {
                       </Link>
                       <p className="mt-1 text-[#272343]">${product.price}</p>
                     </div>
-                    <IoCartOutline className="text-[#272343] text-4xl bg-[#F0F2F3] rounded-md p-2 border-none hover:bg-[#029FAE] hover:text-[#FFFFFF]" />
+                    {/* <IoCartOutline className="text-[#272343] text-4xl bg-[#F0F2F3] rounded-md p-2 border-none hover:bg-[#029FAE] hover:text-[#FFFFFF]" /> */}
                   </div>
                 </div>
               ))}

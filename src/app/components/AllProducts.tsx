@@ -3,7 +3,7 @@
 
 "use client";
 
-import { IoCartOutline } from "react-icons/io5";
+
 import Image from "next/image";
 import { FaRegHeart } from "react-icons/fa";
 import { client } from "@/sanity/lib/client";
@@ -84,7 +84,7 @@ export default function AllProducts() {
                     </h3>
                     <p className="mt-1 text-[#272343]">${product.price}</p>
                   </div>
-                  <IoCartOutline className="text-[#272343] text-3xl bg-[#F0F2F3] rounded-md p-2 hover:bg-[#029FAE] hover:text-white cursor-pointer" />
+                  
                 </div>
               </Link>
             ))}

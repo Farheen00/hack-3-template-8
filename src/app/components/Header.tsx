@@ -4,8 +4,6 @@ import { IoCartOutline, IoAlertCircleOutline } from "react-icons/io5";
 import { HiMenu } from "react-icons/hi";
 import Link from "next/link";
 import Image from "next/image";
-
-
 import {
   Sheet,
   SheetContent,
@@ -16,6 +14,8 @@ import {
 } from "@/components/ui/sheet";
 
 export default function Header() { 
+  
+  
   
   return (
     <header className="w-full">
@@ -88,7 +88,7 @@ export default function Header() {
               Home
             </Link>
             <Link
-              href="/shop"
+              href="/cart"
               className="hover:text-[#029FAE] cursor-pointer text-gray-700"
             >
               Shop
@@ -100,7 +100,7 @@ export default function Header() {
               Product
             </Link>
             <Link
-              href="/products"
+              href="/shop"
               className="hover:text-[#029FAE] cursor-pointer text-gray-700"
             >
               Pages

@@ -1,7 +1,5 @@
 
 "use client";
-
-import { IoCartOutline } from "react-icons/io5";
 import Image from "next/image";
 import { FaRegHeart } from "react-icons/fa";
 import { client } from "@/sanity/lib/client";
@@ -44,7 +42,7 @@ export default function PageFeaturedProducts() {
       <section className="text-gray-600 body-font">
         <div className="container mx-auto pt-12">
           {/* Heading */}
-          <h1 className="text-left ml-28 text-3xl md:text-2xl font-semibold font-[Inter] mb-6">
+          <h1 className="text-center  text-3xl md:text-2xl font-semibold font-[Inter] mb-6">
             Featured Products
           </h1>
 
@@ -84,7 +82,7 @@ export default function PageFeaturedProducts() {
                     </h3>
                     <p className="mt-1 text-[#272343]">${product.price}</p>
                   </div>
-                  <IoCartOutline className="text-[#272343] text-3xl bg-[#F0F2F3] rounded-md p-2 hover:bg-[#029FAE] hover:text-white cursor-pointer" />
+
                 </div>
               </Link>
             ))}
