@@ -1,8 +1,4 @@
-
-
-
 "use client";
-
 
 import Image from "next/image";
 import { FaRegHeart } from "react-icons/fa";
@@ -84,7 +80,6 @@ export default function AllProducts() {
                     </h3>
                     <p className="mt-1 text-[#272343]">${product.price}</p>
                   </div>
-                  
                 </div>
               </Link>
             ))}
